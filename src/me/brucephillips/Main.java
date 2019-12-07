@@ -5,6 +5,7 @@ import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
 public class Main {
@@ -12,21 +13,28 @@ public class Main {
     private static int MAP_SIZE = 104857600;
 
     public static void main(String[] args) {
-	// write your code here
+
+        Path path = Paths.get("C:\\Users\\phill\\Downloads\\msesessionsfromdatabase.csv");
+
+        String textToFind = "W08";
+
+
+        try {
+            String textFind = findFast(path, textToFind);
+            System.out.println(textFind);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    private String findFast(Path path, String text) throws IOException {
+    private static String findFast(Path path, String text) throws IOException {
 
         if (path == null || text == null) {
-
             throw new IllegalArgumentException("Path/text cannot be null");
-
         }
 
         if (text.isBlank()) {
-
             return "";
-
         }
 
         final byte[] texttofind = text.getBytes(StandardCharsets.UTF_8);

@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2de7ce2b-3dea-4a0c-a13a-427c8bdf5471" name="Default Changelist" comment="" />
+    <list default="true" id="2de7ce2b-3dea-4a0c-a13a-427c8bdf5471" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/brucephillips/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/brucephillips/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UfjJRsvkMiZ9kVaAbVjzcHRQtH" />
   <component name="ProjectViewState">
@@ -14,6 +21,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -28,6 +36,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575754472689</updated>
       <workItem from="1575754479536" duration="522000" />
+      <workItem from="1575755887795" duration="585000" />
     </task>
     <servers />
   </component>
@@ -63,9 +77,25 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="534" y="244" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1575754967479" />
-    <state x="561" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1575754479552">
+    <state width="1342" height="262" key="GridCell.Tab.0.bottom" timestamp="1575756428981">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state x="561" y="341" key="com.intellij.ide.util.TipDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1575754479552" />
+    <state width="1342" height="262" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1575756428981" />
+    <state width="1342" height="262" key="GridCell.Tab.0.center" timestamp="1575756428980">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1342" height="262" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1575756428980" />
+    <state width="1342" height="262" key="GridCell.Tab.0.left" timestamp="1575756428980">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1342" height="262" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1575756428980" />
+    <state width="1342" height="262" key="GridCell.Tab.0.right" timestamp="1575756428981">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1342" height="262" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1575756428981" />
+    <state x="561" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1575755887951">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="561" y="341" key="com.intellij.ide.util.TipDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1575755887951" />
   </component>
 </project>
