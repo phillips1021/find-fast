@@ -10,13 +10,13 @@ import java.nio.file.StandardOpenOption;
 
 public class Main {
 
-    private static int MAP_SIZE = 104857600;
+    private static long MAP_SIZE = 104857600;
 
     public static void main(String[] args) {
 
-        Path path = Paths.get("C:\\Users\\phill\\Downloads\\msesessionsfromdatabase.csv");
+        Path path = Paths.get("/home/bphillips/largefile.txt");
 
-        String textToFind = "W08";
+        String textToFind = "";
 
 
         try {
@@ -40,7 +40,7 @@ public class Main {
         final byte[] texttofind = text.getBytes(StandardCharsets.UTF_8);
 
         try (FileChannel fileChannel = FileChannel.open(path, StandardOpenOption.READ)) {
-            int position = 0;
+            long position = 0;
 
             long length = fileChannel.size();
 
